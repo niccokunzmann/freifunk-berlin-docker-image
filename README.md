@@ -1,5 +1,6 @@
 # freifunk-berlin-docker-image
 
+[![Dockerhub](https://img.shields.io/docker/automated/niccokunzmann/freifunk-berlin-docker-image.svg)](https://cloud.docker.com/repository/docker/niccokunzmann/freifunk-berlin-docker-image)
 A docker image for the Freifunk Berlin firmware.
 
 ## use
@@ -10,7 +11,7 @@ docker run -p "9000:80" -it --rm niccokunzmann/freifunk-berlin-docker-image
 
 and have a look at http://localhost:9000
 
-## build
+## buildgit remote add origin git@github.com:niccokunzmann/freifunk-berlin-docker-image.git
 
 Get the file system:
 
